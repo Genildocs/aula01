@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML - Aula01</title>
+    <style>
+        p{
+            color:rgb(51, 56, 52);
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border: 2px solid red;
+            padding: 15px;
+        }
+
+        h1{
+            font-weight: 500;
+            font-style: italic;
+            color: blue;
+        }
+    </style>
+        
+    
+</head>
+<body>
+    
+    <h1 id="teste">Tag de Titulo</h1>
+    <h2>Tag de Titulo</h2>
+    <h3>Tag de Titulo</h3>
+    <h4>Tag de Titulo</h4>
+    <h5>Tag de Titulo</h5>
+    <h6>Tag de Titulo</h6>
+    <hr/>
+    <p>Lorem ipsum, <b>dolor </b>sit amet consectetur adipisicing elit. Inventore aliquam quae nobis dolores! Corrupti eos eius enim iste ex odio excepturi, quo quis laudantium aliquam sunt esse, veritatis dolorum dolor!</p>
+    
+    <script>
+        // alert('Funcionando!')
+        const teste = document.getElementById('teste');
+        
+        teste.innerHTML = "Hello World!"
+        
+    </script>
+
+</body>
+</html>
