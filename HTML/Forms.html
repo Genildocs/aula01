@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    
+    <!-- Tag Form serve para capturar dados de entranda.
+        Input -> Entrada
+
+        Action -> Define para qual url será enviada os dados, vazio envia para mesma url 
+        Method: Get -
+                Post -
+    -->
+
+    <form >
+        <h2>Digite seu endereço:</h2>
+
+        <label for="rua">Rua:</label>
+        <input id="rua" type="text" name="rua" autocomplete="street-address">
+        <br>
+        <br>
+        <label for="numero">Numero:</label>
+        <input id="numero" type="number" name="numero" autocomplete="cc-number">
+
+        <button id="btn" type="submit">Enviar</button>
+        <!--Dentro do formulario colocamos type do button em submit, dessa forma toda vez que o botão for
+        clicado estamos indicando para o formulario que ele precisa enviar os dados que foram inseridos.-->
+        <button type="reset">Limpar</button>  
+
+    </form>
+
+
+
+
+
+ 
+
+
+</body>
+</html>
