@@ -6,8 +6,9 @@
 -> Relativas
     % calcula o tamanho relativo ao elemento pai
     vw(view width) 1vw é 1% da  largura da janela do navegador.
-    vh(view height) 1vh é 1% da largura da janela do navegador.
-    em é uma unidade relativa ao elemento pai.
-    rem é uma unidade relativa ao elemento raiz(root)
+    vh(view height) 1vh é 1% da altura da janela do navegador.
+    em é uma unidade relativa ao elemento pai. (utilizado geralmente propriedade fonte-size)
+    rem é uma unidade relativa ao elemento raiz(root) (utilizado geralmente propriedade fonte-size)
 
 */
+
