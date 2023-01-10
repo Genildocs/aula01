@@ -12,3 +12,35 @@
 
 */
 
+/* Box-Sizing -
+            Border-box: Mantem width e height com mesmo tamanho, mesmo adicionando padding, border e margin.
+            Content-box: O width e height do conteudo vai aumentando conforme é adicionado padding, border e margin.
+*/
+
+/* Display
+    
+    -BLOCK
+    -INLINE
+    -INLINE-BLOCK
+    
+    -GRID
+    -FLEX
+    
+    -BLOCK: Vem como padrão: div, section, p, h1, h2, ul, li, article...
+            -Ocupa 100% da largura do elemento pai
+            -Sempre ocupa toda a sua linha
+            -Altura definida de acordo com o conteúdo
+            -Podemos definir height e width
+            -Podemos definir valores de margin
+    
+    
+    -INLINE: Ve como padrão a, span, b, i....
+           -Elementos em linha
+           -Não permite alterar height e width
+           -Não podemos definir valores de margin top e bottom
+           -Ganha comportamento de uma palavra
+    
+    -INLINE-BLOCK:
+            -Elementos em linha, porém com caracteristicas do display block
+            -Altura e largura podem ser alteradas.
+           */
